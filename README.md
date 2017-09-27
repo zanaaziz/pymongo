@@ -32,8 +32,9 @@ MongoDB is amazing, every document that's created instantly receives a unique ID
 # Getting All Documents
 Last but not least, we want a function that returns all the documents in our collection. This is easy in the mongo shell. You just run the find() command and it'll return all documents. Sadly, this doesn't work in Python so we have to bypass it but luckily it's easy to do so. On line 39 we use a simple for loop that iterates through all the documents in the collection and each time it iterates, it prints out the document and boom that's how the cookie crumbles!
 
-# Note
+# Last Note
 There's a lot more that I could've added here but I think by understanding this, it will be easy to learn how to implement other functions such as querying(editing) documents and so on.
-I hope you enjoyed this and had fun because I did!
+The last three lines contain code ready to go for calling the functions. Just un-comment and run.
+Feel free to add more to this if you would like to contribute.
 
-Last Note: The last three lines have code ready to go for calling the functions. Just un-comment and run.
+I hope you enjoyed and had as much fun as I did!
