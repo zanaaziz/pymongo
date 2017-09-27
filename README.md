@@ -1,10 +1,10 @@
 # The Basics of Using Python's PyMongo with MongoDB
-This is basic foundation to learn how to use PyMongo with a MongoDB database in Python(of course).
+This is basic foundation to learn how to use PyMongo with a MongoDB database in Python.
 In this repo, you will find a single file called PyMongo.py, which simply has different functions communicating with a localhost MongoDB databases.
 
 # First and Foremost
 Make sure you have the PyMongo distribution installed and ready to before you begin anything. For example, I am using Spyder(for very specific reasons) which comes in a package with Anaconda.
-Thus, I had to go to Anaconda.org and search for the PyMongo distribution there. Also, I'm assuming you actually have MongoDB correctly installed and ready to roll on your machine(if not, go and do it...).
+Thus, I had to go to Anaconda.org and search for the PyMongo distribution there. Also, I'm assuming you actually have MongoDB correctly installed and ready to roll on your machine(if not, go and do it...like yesterday)
 At this point, run 'mongod' so that we can begin.
 
 # Importing The libraries
