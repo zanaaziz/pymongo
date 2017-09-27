@@ -37,5 +37,3 @@ There's a lot more that I could've added here but I think by understanding this,
 I hope you enjoyed this and had fun because I did!
 
 Last Note: The last three lines have code ready to go for calling the functions. Just un-comment and run.
-
-- Zana Daniel
