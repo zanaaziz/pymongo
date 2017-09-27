@@ -4,7 +4,8 @@ In this repo, you will find a single file called PyMongo.py, which simply has di
 
 # First and Foremost
 Make sure you have the PyMongo distribution installed and ready to before you begin anything. For example, I am using Spyder(for very specific reasons) which comes in a package with Anaconda.
-Thus, I had to go to Anaconda.org and search for the PyMongo distribution there. Also, I'm assuming you actually have MongoDB correctly installed and ready to roll on your machine(if not, go and do it...like yesterday)
+Thus, I had to go to Anaconda.org and search for the PyMongo distribution there.
+Also, I'm assuming you actually have MongoDB correctly installed and ready to roll on your machine(if not, go and do it...like yesterday)
 At this point, run 'mongod' so that we can begin.
 
 # Importing The libraries
@@ -13,13 +14,16 @@ In case you're wondering, 'bson' comes with PyMongo and it lets us access the un
 
 # Opening a Connection To The Database
 Now that everything is ready, we first need to establish where to look for a database. This can be local or stored on a server. On line 13 we declare a variable called 'client' which we assign the database URL using MongoClient.
-In my case, it is the default localhost at port 27017. Note: You can also use this format, MongoClient('mongodb://localhost:27017/')
+In my case, it is the default localhost at port 27017.
+Note: You can also use this format, MongoClient('mongodb://localhost:27017/')
 Next we create a variable called 'db' in which we assign the client followed by the name of the database we want to use or create.
 Now we are ready to use the database.
 
 # Inserting a Document
-It's important to note, if we wish to create a new collection, it can be simply done by inserting a document into the named collection we wish to create and that's it. MongoDB will check if it exists and if not, it'll create one for us as expected. The easiest and most convenient way to do this is by creating a function that takes in the parameters of the values we want to insert into the database. In this case, on line 19, I just used 'username', 'name', 'age' and 'email'.
-As you might expect, when this function is called, it'll take in the parameters and pass them into the query we make starting at line 19. Note: We use 'insert_one' because we're inserting one document. If it is more than one, we would use 'insert_many'. Note: 'insert_one' is simply an object.
+It's important to note, if we wish to create a new collection, it can be simply done by inserting a document into the named collection we wish to create and that's it. MongoDB will check if it exists and if not, it'll create one for us as expected.
+The easiest and most convenient way to do this is by creating a function that takes in the parameters of the values we want to insert into the database. In this case, on line 19, I just used 'username', 'name', 'age' and 'email'.
+As you might expect, when this function is called, it'll take in the parameters and pass them into the query we make starting at line 19.
+Note: We use 'insert_one' because we're inserting one document. If it is more than one, we would use 'insert_many'. Note: 'insert_one' is simply an object.
 I'll discuss what line 27 does in the next section. At the moment, we can successfully insert documents into our database from our Python program!
 
 # Getting a Document
