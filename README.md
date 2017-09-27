@@ -8,7 +8,7 @@ Thus, I had to go to Anaconda.org and search for the PyMongo distribution there.
 Also, I'm assuming you actually have MongoDB correctly installed and ready to roll on your machine(if not, go and do it...like yesterday).
 At this point, run 'mongod' so that we can begin.
 
-# Importing The libraries
+# Importing The Libraries
 You can see on line 8 we are importing MongoClient from 'PyMongo' and on line 9 we're importing ObjectId from 'bson'.
 In case you're wondering, 'bson' comes with PyMongo and it lets us access the unique object ID's of documents that MongoDB stores as binary JSON type.
 
