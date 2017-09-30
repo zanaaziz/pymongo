@@ -5,7 +5,7 @@ In this repo, you will find a single file called PyMongo.py, which simply has di
 # First and Foremost
 Make sure you have the PyMongo distribution installed and ready to before you begin anything. For example, I am using Spyder (for scientific programming) which comes in a package with Anaconda.
 Thus, I had to go to Anaconda.org and search for the PyMongo distribution there.
-Also, I'm assuming you actually have MongoDB correctly installed and ready to roll on your machine(if not, go and do it...like yesterday).
+Also, I'm assuming you actually have MongoDB correctly installed and ready to roll on your machine (if not, go and do it...like yesterday).
 
 At this point, run 'mongod' so that we can begin.
 
