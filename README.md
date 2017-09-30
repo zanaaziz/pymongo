@@ -43,7 +43,7 @@ def createUser(username, name, age, email):
             "name": name,
             "age": age,
             "email": email
-            })
+    })
 
     print("\nCreated User:\n", db.users.find_one({"username": username, "name": name, "age": age, "email": email}))
 ```
