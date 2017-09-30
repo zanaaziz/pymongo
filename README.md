@@ -21,7 +21,11 @@ from bson.objectid import ObjectId
 # Opening a Connection To The Database
 Now that everything is ready, we first need to establish where to look for a database. This can be local or stored on a server. On line 13 we declare a variable called 'client' which we assign the database URL using MongoClient.
 In my case, it is the default localhost at port 27017.
-Note: You can also use this format, MongoClient('mongodb://localhost:27017/').
+
+Note: You can also use this format,
+
+MongoClient('mongodb://localhost:27017/').
+
 Next we create a variable called 'db' in which we assign the client followed by the name of the database we want to use or create.
 Now we are ready to use the database.
 
