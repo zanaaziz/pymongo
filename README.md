@@ -75,7 +75,7 @@ def findAllUsers():
 ```
 
 # Last Note
-There's a lot more that I could've added here but I think by understanding this, it will be easy to learn how to implement other functions such as querying(editing) documents and so on.
+There's a lot more that I could've added here but I think by understanding this, it will be easy to learn how to implement other functions such as querying (editing) documents and so on.
 The last three lines contain code ready to go for calling the functions.
 
 ```python
