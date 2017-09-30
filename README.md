@@ -23,9 +23,9 @@ Now that everything is ready, we first need to establish where to look for a dat
 In my case, it is the default localhost at port 27017.
 
 Note: You can also use this format,
-
-MongoClient('mongodb://localhost:27017/').
-
+```
+MongoClient('mongodb://localhost:27017/')
+```
 Next we create a variable called 'db' in which we assign the client followed by the name of the database we want to use or create.
 Now we are ready to use the database.
 
