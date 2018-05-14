@@ -1,5 +1,5 @@
-# The Basics of Using Python's PyMongo with MongoDB
-This is basic foundation to learn how to use PyMongo with a MongoDB database in Python.
+# PyMongo with MongoDB
+This is a basic guide to learn how to use Python's PyMongo with a MongoDB database.
 In this repo, you will find a single file called PyMongo.py, which simply has different functions communicating with a localhost MongoDB databases.
 
 # First and Foremost
